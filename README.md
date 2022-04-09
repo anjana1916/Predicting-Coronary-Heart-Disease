@@ -200,7 +200,16 @@ The factors which are influencing my dataset are complexity of model and toleran
 How can I calculate my data needs?  
 Rule 10:  
 This is a common, if controversial, rule of thumb which states that a model requires ten times more data than it has degrees of freedom. The aim of this rule is to compensate for some of the variability that all of your parameters bring to the model’s input.  
-If the number of records in our data is greater than (Number of columns – 1) * 10 then the data would be sufficient enough to conduct study. Here In my dataset there are 15 attributes and 4238 records => (15 – 1) * 10 = 140 . The number of records is greater than this threshold. Therefore, we have sufficient amount of data.
+If the number of records in our data is greater than (Number of columns – 1) * 10 then the data would be sufficient enough to conduct study. Here In my dataset there are 15 attributes and 4238 records => (15 – 1) * 10 = 140 . The number of records is greater than this threshold. Therefore, we have sufficient amount of data.  
+
+
+### Methods:  
+I have applied both Logistic regression and multi-linear regression and compared the results.  
+For logistic regression, the accuracy is about 83%. But for Multiple Linear Regression the r square value is very far away from one and therefore it is not a good fit.  
+![l](https://user-images.githubusercontent.com/103304121/162576793-67dcbeb4-d176-40fd-8627-88931e6c09da.png  
+![r](https://user-images.githubusercontent.com/103304121/162576812-1a20977f-0c56-47cb-8f66-6ac8b74eeafd.png)
+
+
 
 
 
