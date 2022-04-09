@@ -170,9 +170,39 @@ Here our next step is to look at the data types of our column
 ![d5](https://user-images.githubusercontent.com/103304121/162576398-491ea066-d845-4a33-a4a7-fb47ecb9590d.png)  
 
 Most of the binary attributes are saved as integers, these should be changed to factor with two levels.  
-![d6](https://user-images.githubusercontent.com/103304121/162576408-78809454-6827-4e54-a5c8-4298d6bc0cb7.png)
+![d6](https://user-images.githubusercontent.com/103304121/162576408-78809454-6827-4e54-a5c8-4298d6bc0cb7.png)  
 
- 
+
+### What is Training data?
+●	Training data is a collection of labelled information through which an AI model learns to perform its task at a high level of accuracy.  
+●	It usually consists of annotated text, images, video, or audio.  
+●	 most datasets are used multiple times throughout the training process, as this helps to refine the model’s predictions and improve its success rate.  
+●	Most training data contains pairs of input information and corresponding annotations, which are often called the target, tags or labels, contain relevant metadata that helps your model to make more accurate predictions. Since these labels are so important to the training process, the makeup of each individual dataset can vary drastically  
+Eg:-  
+In image recognition, the input would be the image, while the label suggests what is contained within the image.  
+In sentiment analysis, training data is usually composed of sentences, reviews or tweets as the input, with the label indicating whether that piece of text is positive or negative. This is used in an application called Grammarly.  
+
+Training, Test and Validation Data  
+ To build a machine learning model you’ll need three types of training data, each of which performs a different role.  
+ 1.	Training data is used to help your machine learning model make predictions. This data is used exhaustively across multiple training cycles to improve the accuracy of your algorithm. Training data is different from validation and testing data in that its classes are often evenly distributed.  
+ 2.	Validation data is primarily used to determine whether your model can correctly identify new data or if it’s overfitting to your original dataset.   
+ 3.	Testing data is used after both training and validation. It aims to test the accuracy of your final model against your targets.
+In my case study, 70% of the data is taken as training data and 30% of the data is taken for testing. Validation dataset is not taken, maybe for future studies 20% of the data can be taken as validation data.  
+
+It’s difficult to figure out the exact size you’ll need for your dataset due to the nature of the training process. it’s important to gather enough data to give your algorithm an accurate understanding of the complex network of meaning behind and between your data points.
+Some factors that often have a high degree of influence on the size of your dataset. They are as follows:  
+●	Complexity of model  
+●	Training method  
+●	Labelling needs  
+●	Tolerance for errors  
+●	Diversity of input  
+The factors which are influencing my dataset are complexity of model and tolerance for errors. Because for a model which predicts future coronary heart disease it has to take into account a lot of parameters of the patient, his medical history, current records etc.. This model also need to have a higher level of performance on edge cases and a lower rate of error since its predicting the occurrence of a heart disease   
+How can I calculate my data needs?  
+Rule 10:  
+This is a common, if controversial, rule of thumb which states that a model requires ten times more data than it has degrees of freedom. The aim of this rule is to compensate for some of the variability that all of your parameters bring to the model’s input.  
+If the number of records in our data is greater than (Number of columns – 1) * 10 then the data would be sufficient enough to conduct study. Here In my dataset there are 15 attributes and 4238 records => (15 – 1) * 10 = 140 . The number of records is greater than this threshold. Therefore, we have sufficient amount of data.
+
+
 
 
 
