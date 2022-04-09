@@ -22,6 +22,7 @@ This data is taken from Kaggle website, it is based on an ongoing cardiovascular
 #### Predict variable (desired target)
 • 10 year risk of coronary heart disease CHD 
 
-![dataset](https://user-images.githubusercontent.com/103304121/162565224-df3ad37a-e4ca-429e-bc45-82e5410b9066.png)
-![dataset1](https://user-images.githubusercontent.com/103304121/162565223-aabbabaf-54fb-4768-a215-a46c535bfb44.png)
-![dataset2](https://user-images.githubusercontent.com/103304121/162565222-e426b486-ccd2-4b8a-ab76-5fff68ea6885.png)
+![dataset](https://user-images.githubusercontent.com/103304121/162565285-c1ed041f-86ca-4adc-8524-fff28881da82.png)
+![dataset1](https://user-images.githubusercontent.com/103304121/162565287-73acd23b-87ca-4288-a200-d960f29e7583.png)
+![dataset2](https://user-images.githubusercontent.com/103304121/162565288-fb28c059-d433-4c33-8ece-e166d6d329bd.png)
+
