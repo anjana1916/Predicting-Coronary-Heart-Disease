@@ -38,11 +38,41 @@ Data mining is basically used to extract useful information from raw dataset. Th
     
 #### Statistical:  
 1.	Which is the average number of males and females in your dataset?  
+Females = 0.57 and males = 0.43
+That is 57% of the patients in our dataset are females and 43% are males.
+![s1](https://user-images.githubusercontent.com/103304121/162566853-ffce1cdf-cac9-414c-82ac-ce059d86a69b.png)
+ 
 2.	What is the maximum and minimum levels of total Cholesterol?  
+![s2](https://user-images.githubusercontent.com/103304121/162566879-687fbb4c-2cbf-4587-be14-cbc47ed673a1.png)  
+![s22](https://user-images.githubusercontent.com/103304121/162566902-bd056225-ad97-46a6-ab72-b589df04ec37.png)  
+Range = max – min = 696 – 107 = 589
+From this we can observe that the cholesterol levels is going as high as 696 which is not normal. And the average is coming close to 240 (greater than 240 is not normal levels). Most frequently occurring Total Cholesterol level is 220, which falls under normal category.
+  
 3.	What is the average systolic blood pressure?  
+![s3](https://user-images.githubusercontent.com/103304121/162566927-da1294c5-a8c9-431d-9e95-8ac09a4a9474.png)
+![s33](https://user-images.githubusercontent.com/103304121/162566943-73eae993-3823-48d4-b6a9-b17d49be8d7d.png)
+From this we can observe that the average is exceeding normal systolic blood pressure levels that is 120. Therefore there are patients with elevated and high blood pressure levels. Most frequently occurring systolic Blood pressure level is 120
+  
 4.	What is the average number of the total patients having ten-year risk of getting Coronary heart disease?  
+![s4](https://user-images.githubusercontent.com/103304121/162566969-205947af-55a3-49c8-8a19-551e4c50fbeb.png)
+No risk of CHD = 0.85     risk of CHD = 0.15
+85% of the patients in our dataset have no risk of CHD while the remaining 15% has a risk of getting CHD.
+ 
 5.	What is the average number of males and females having future risk of CHD?  
+ ![s5](https://user-images.githubusercontent.com/103304121/162567016-6c27c98c-7ac3-4be5-915e-fc5bbe277ec9.png)
+ If we look at females alone, the average number of females having future risk of coronary heart disease is 0.12 (301 out of 2419 females) that is 12% of the total population of females.  
+ ![s55](https://user-images.githubusercontent.com/103304121/162567030-d5160a1d-4192-4bf3-8ffd-6382a9ba248b.png)
+If we look at Males alone, the average number of males having coronary heart disease is 0.19 (343 out of 1819 males) that is 19% of the total population of males.
+![s555](https://user-images.githubusercontent.com/103304121/162567170-c5c11219-a7b1-416f-8866-407f5d2b736e.png)
+
+
 6.	What is the youngest and oldest patient?  
+![s6](https://user-images.githubusercontent.com/103304121/162567143-e0b2814f-d328-4166-b6d4-e95ed465f247.png)
+![s66](https://user-images.githubusercontent.com/103304121/162567150-d5b58c23-c512-4e67-b204-b78c9ac8c915.png)
+Range = max – min = 38
+From this we can observe that the oldest patient is 70 years old and the youngest patient is 32 years old. Most frequently occurring age is 40.
+
+ 
 
 ### Analytical:
 1.	Which all factors can be considered as potential risk factors?  
