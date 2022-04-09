@@ -124,10 +124,10 @@ Other age groups include: less than 35 = 0.02, 55 and above = 0.31
 
 ### Exploratory Data Analysis:
 ●	To take a closer look at the data took help of “ .head()”function of pandas library which returns first five observations of the data set. Similarly “.tail()” returns last five observations of the data set.  
-![1](https://user-images.githubusercontent.com/103304121/162574896-8328375a-d6bd-40bf-a5b5-b44b9a696032.png)  
+![1](https://user-images.githubusercontent.com/103304121/162574896-8328375a-d6bd-40bf-a5b5-b44b9a696032.png)    
 
-●	I found out the total number of rows and columns in the data set using “.shape”.
-![2](https://user-images.githubusercontent.com/103304121/162574909-7b472f69-d180-4f6c-aa05-5d7eca9f0bd0.png)
+●	I found out the total number of rows and columns in the data set using “.shape”.  
+![2](https://user-images.githubusercontent.com/103304121/162574909-7b472f69-d180-4f6c-aa05-5d7eca9f0bd0.png)  
 
 ●	Dataset comprises of 4238 observations and 15 characteristics.
 ●	Out of which one is dependent variable and rest 14 are independent variables — medical characteristics.
