@@ -34,7 +34,7 @@ Data mining is basically used to extract useful information from raw dataset. Th
             The early prognosis of cardiovascular diseases can aid in making decisions on lifestyle changes in high-risk patients and in turn reduce the complications. In this study we intend to highlight the most relevant risk factors of heart disease as well as predict the overall risk using data mining techniques. Since our target variable is categorical or Boolean, we use Logistic regression in this study.  
 
 ### Objective
-    In this study we are going to check if factors like – Total cholesterol levels, gender, age, Blood pressure levels, glucose levels, cigarettes smoked per day etc.. are potential risk factors of Coronary heart disease by answering few statistical and analytical questions.
+  In this study we are going to check if factors like – Total cholesterol levels, gender, age, Blood pressure levels, glucose levels, cigarettes smoked per day etc.. are potential risk factors of Coronary heart disease by answering few statistical and analytical questions.
     
 #### Statistical:  
 1.	Which is the average number of males and females in your dataset?  
