@@ -156,8 +156,8 @@ Here we have mode of each numerical columns,
 The attributes age, cigsperday, sysBP, diaBP, glucose have mode less than its mean, therefore the distribution is skewed to the right. For totChol the mode is greater than mean, therefore its skewed to the left. For heartrate mean, median and mode is almost aligned.   
 
 
-Data Cleaning
-Incomplete (Missing) Data:
+### Data Cleaning  
+#### Incomplete (Missing) Data:
 My dataset consists of Incomplete data: missing data in five attributes.  
 ![d1](https://user-images.githubusercontent.com/103304121/162576359-68e10def-a263-4a54-bec5-99e309601da0.png)
 ![d2](https://user-images.githubusercontent.com/103304121/162576360-fe55ec97-045b-4baa-bc11-d3a0a611cb1a.png)  
