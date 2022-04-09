@@ -206,7 +206,7 @@ If the number of records in our data is greater than (Number of columns – 1) *
 ### Methods:  
 I have applied both Logistic regression and multi-linear regression and compared the results.  
 For logistic regression, the accuracy is about 83%. But for Multiple Linear Regression the r square value is very far away from one and therefore it is not a good fit.  
-![l](https://user-images.githubusercontent.com/103304121/162576793-67dcbeb4-d176-40fd-8627-88931e6c09da.png  
+![l](https://user-images.githubusercontent.com/103304121/162576793-67dcbeb4-d176-40fd-8627-88931e6c09da.png)  
 ![r](https://user-images.githubusercontent.com/103304121/162576812-1a20977f-0c56-47cb-8f66-6ac8b74eeafd.png)
 
 
