@@ -74,7 +74,7 @@ From this we can observe that the oldest patient is 70 years old and the younges
 
  
 
-### Analytical:
+#### Analytical:
 1.	Which all factors can be considered as potential risk factors?  
 2.	Why does males have high risk of getting CHD?  
 In our dataset we have 15 factors taken from demographic, behavioural and medical records of each patient. We will have to go through all the risk factors and narrow it down to a few important potential risk factors.   
@@ -120,7 +120,40 @@ From this Pie-chart we can infer that it is not a potential risk factor since mo
 6.	Which age group is predominant?  
 ![a6](https://user-images.githubusercontent.com/103304121/162567708-7e7c9329-0298-44fe-b3c1-465254ad204d.png)  
 From the pie-chart we can see that majority of the patients are from the age group 35-55, with an average of 0.67.
-Other age groups include: less than 35 = 0.02, 55 and above = 0.31
+Other age groups include: less than 35 = 0.02, 55 and above = 0.31  
+
+### Exploratory Data Analysis:
+●	To take a closer look at the data took help of “ .head()”function of pandas library which returns first five observations of the data set. Similarly “.tail()” returns last five observations of the data set.  
+![1](https://user-images.githubusercontent.com/103304121/162574896-8328375a-d6bd-40bf-a5b5-b44b9a696032.png)  
+
+●	I found out the total number of rows and columns in the data set using “.shape”.
+![2](https://user-images.githubusercontent.com/103304121/162574909-7b472f69-d180-4f6c-aa05-5d7eca9f0bd0.png)
+
+●	Dataset comprises of 4238 observations and 15 characteristics.
+●	Out of which one is dependent variable and rest 14 are independent variables — medical characteristics.
+●	Columns and their corresponding data types,along with finding whether they contain null values or not. In my dataset there are null values in few columns, namely: totChol, BMI, heartrate, and glucose.
+The datatypes for categorical attributes are also wrong, it is saved as integers. This can be rectified in cleaning process.  
+![3](https://user-images.githubusercontent.com/103304121/162574936-dec4ab61-e9a9-4212-a0df-83b8bf761263.png)  
+
+ 
+●	The describe() function in pandas is very handy in getting various summary statistics.This function returns the count, mean, standard deviation, minimum and maximum values and the quantiles of the data.  
+![4](https://user-images.githubusercontent.com/103304121/162574948-00775438-8050-4256-a44b-eea623d15836.png)  
+
+ 
+From the above image you can see that there is a huge difference between Q3 and maximum value in two columns – totChol and glucose, which suggests that there might be outliers.
+And in most of the columns mean is greater than the median which means the data is skewed to the right.
+●	Target variable/Dependent variable is discrete and categorical in nature.  
+![5](https://user-images.githubusercontent.com/103304121/162574976-c65144bc-38db-4163-b3fd-5cc7a8be34da.png)
+
+ 
+2 categories 0 and 1 – No CHD and CHD
+●	This tells us the count of each category in descending order.  
+![6](https://user-images.githubusercontent.com/103304121/162574986-082df36b-2c27-47bb-b957-d7857b7c6d32.png)  
+
+Here we have mode of each numerical columns,  
+![8](https://user-images.githubusercontent.com/103304121/162575040-e86b0a7b-9060-4e99-936b-9a3beda7bf21.png)  
+
+The attributes age, cigsperday, sysBP, diaBP, glucose have mode less than its mean, therefore the distribution is skewed to the right. For totChol the mode is greater than mean, therefore its skewed to the left. For heartrate mean, median and mode is almost aligned. 
 
 
 
