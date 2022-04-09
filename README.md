@@ -204,10 +204,58 @@ If the number of records in our data is greater than (Number of columns – 1) *
 
 
 ### Methods:  
+#### Logistic regression and Multi-Linear Regression
 I have applied both Logistic regression and multi-linear regression and compared the results.  
 For logistic regression, the accuracy is about 83%. But for Multiple Linear Regression the r square value is very far away from one and therefore it is not a good fit.  
 ![l](https://user-images.githubusercontent.com/103304121/162576793-67dcbeb4-d176-40fd-8627-88931e6c09da.png)  
-![r](https://user-images.githubusercontent.com/103304121/162576812-1a20977f-0c56-47cb-8f66-6ac8b74eeafd.png)
+![r](https://user-images.githubusercontent.com/103304121/162576812-1a20977f-0c56-47cb-8f66-6ac8b74eeafd.png)  
+
+#### Classifiers:  
+
+#### K – Means:  
+K-means clustering is a type of unsupervised learning, which is used when you have unlabelled data (i.e., data without defined categories or groups). The goal of this algorithm is to find groups in the data, with the number of groups represented by the variable K. The algorithm works iteratively to assign each data point to one of K groups based on the features that are provided. Data points are clustered based on feature similarity. The results of the K-means clustering algorithm are:  
+1.The centroids of the K clusters, which can be used to label new data   
+2.Labels for the training data (each data point is assigned to a single cluster)   
+
+K – Means SSE Plot:
+One of the most popular method used to select the optimal number of clusters is the elbow method. SSE is defined as the sum of the squared distance between centroid and each member of the cluster. Then plot a K against SSE graph.We will observe that as K increases SSE decreases as disortation will be small. So the idea of this algorithm is to choose the value of K at which the graph decrease abruptly.This sort of produces a “elbow effect” in the picture.  
+
+ 
+![k](https://user-images.githubusercontent.com/103304121/162577203-44af3d4d-d833-4193-9677-963d6e7bd677.png)
+
+ 
+ 
+So the idea of this algorithm is to choose the value of K at which the graph decrease abruptly. So in this case we choose 2 clusters.
+
+K-means implementation:
+ From the elbow graph you can see that two clusters are optimum. Therefore k-means was done  again for 2 clusters.  
+ ![kmm](https://user-images.githubusercontent.com/103304121/162577315-c27dfa96-23d3-4e15-97ae-38f926ea7484.png)  
+ 
+
+#### Bayesian Classifier:  
+Bayesian classification is based on bayes theorem. They are statistical classifiers. There are two types of probabilities −  
+Posterior Probability [P(H/X)]  
+Prior Probability [P(H)]  
+where X is data tuple and H is some hypothesis.  
+The initial probability is called prior probability. By updating the prior using Bayes theorem to obtain the posterior probability. Bayes theorem provides a method of calculating the probability of a hypothesis based on its prior probability, the probabilities of observing various data given the hypothesis and observed data itself.  Posterior=(likelihood*prior)/evidence  
+P(h|X)=(P(X|h)P(h))/(P(X))  
+P(X)=ΣP(X|H1)P(H1)+P(X|H2)P(H2).
+
+Bayesian Classifier on dataset:  
+![cc](https://user-images.githubusercontent.com/103304121/162577406-07d736a8-bffc-483e-be71-50224fbcb591.png)
+ 
+ 
+ 
+Output:
+ 
+Given a sample samp = [1,1,0,0,1,0] , The Bayesian classifier has classified it to class 0, which means the given sample belongs to the class, no risk of Coronary heart disease.
+
+
+
+
+
+
+
 
 
 
