@@ -153,8 +153,26 @@ And in most of the columns mean is greater than the median which means the data 
 Here we have mode of each numerical columns,  
 ![8](https://user-images.githubusercontent.com/103304121/162575040-e86b0a7b-9060-4e99-936b-9a3beda7bf21.png)  
 
-The attributes age, cigsperday, sysBP, diaBP, glucose have mode less than its mean, therefore the distribution is skewed to the right. For totChol the mode is greater than mean, therefore its skewed to the left. For heartrate mean, median and mode is almost aligned. 
+The attributes age, cigsperday, sysBP, diaBP, glucose have mode less than its mean, therefore the distribution is skewed to the right. For totChol the mode is greater than mean, therefore its skewed to the left. For heartrate mean, median and mode is almost aligned.   
 
+
+Data Cleaning
+Incomplete (Missing) Data:
+My dataset consists of Incomplete data: missing data in five attributes.  
+![d1](https://user-images.githubusercontent.com/103304121/162576359-68e10def-a263-4a54-bec5-99e309601da0.png)
+![d2](https://user-images.githubusercontent.com/103304121/162576360-fe55ec97-045b-4baa-bc11-d3a0a611cb1a.png)  
+
+In my dataset, I used attribute mean to fill in Na or missing values.  
+![d3](https://user-images.githubusercontent.com/103304121/162576380-765b7f3e-958d-4993-ac66-86080cc6d688.png)
+![d4](https://user-images.githubusercontent.com/103304121/162576382-f0652c2d-40c7-47d4-95bc-ea04732c86f8.png)  
+
+Here our next step is to look at the data types of our column  
+![d5](https://user-images.githubusercontent.com/103304121/162576398-491ea066-d845-4a33-a4a7-fb47ecb9590d.png)  
+
+Most of the binary attributes are saved as integers, these should be changed to factor with two levels.  
+![d6](https://user-images.githubusercontent.com/103304121/162576408-78809454-6827-4e54-a5c8-4298d6bc0cb7.png)
+
+ 
 
 
 
