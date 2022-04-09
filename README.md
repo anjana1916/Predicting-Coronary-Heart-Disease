@@ -129,9 +129,9 @@ Other age groups include: less than 35 = 0.02, 55 and above = 0.31
 ●	I found out the total number of rows and columns in the data set using “.shape”.  
 ![2](https://user-images.githubusercontent.com/103304121/162574909-7b472f69-d180-4f6c-aa05-5d7eca9f0bd0.png)  
 
-●	Dataset comprises of 4238 observations and 15 characteristics.
-●	Out of which one is dependent variable and rest 14 are independent variables — medical characteristics.
-●	Columns and their corresponding data types,along with finding whether they contain null values or not. In my dataset there are null values in few columns, namely: totChol, BMI, heartrate, and glucose.
+●	Dataset comprises of 4238 observations and 15 characteristics.  
+●	Out of which one is dependent variable and rest 14 are independent variables — medical characteristics.  
+●	Columns and their corresponding data types,along with finding whether they contain null values or not. In my dataset there are null values in few columns, namely: totChol, BMI, heartrate, and glucose.  
 The datatypes for categorical attributes are also wrong, it is saved as integers. This can be rectified in cleaning process.  
 ![3](https://user-images.githubusercontent.com/103304121/162574936-dec4ab61-e9a9-4212-a0df-83b8bf761263.png)  
 
@@ -141,12 +141,12 @@ The datatypes for categorical attributes are also wrong, it is saved as integers
 
  
 From the above image you can see that there is a huge difference between Q3 and maximum value in two columns – totChol and glucose, which suggests that there might be outliers.
-And in most of the columns mean is greater than the median which means the data is skewed to the right.
+And in most of the columns mean is greater than the median which means the data is skewed to the right.  
 ●	Target variable/Dependent variable is discrete and categorical in nature.  
 ![5](https://user-images.githubusercontent.com/103304121/162574976-c65144bc-38db-4163-b3fd-5cc7a8be34da.png)
 
  
-2 categories 0 and 1 – No CHD and CHD
+2 categories 0 and 1 – No CHD and CHD  
 ●	This tells us the count of each category in descending order.  
 ![6](https://user-images.githubusercontent.com/103304121/162574986-082df36b-2c27-47bb-b957-d7857b7c6d32.png)  
 
