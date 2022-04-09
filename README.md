@@ -50,7 +50,7 @@ From this we can observe that the cholesterol levels is going as high as 696 whi
   
 3.	What is the average systolic blood pressure?  
 ![s3](https://user-images.githubusercontent.com/103304121/162566927-da1294c5-a8c9-431d-9e95-8ac09a4a9474.png)
-![s33](https://user-images.githubusercontent.com/103304121/162566943-73eae993-3823-48d4-b6a9-b17d49be8d7d.png)
+![s33](https://user-images.githubusercontent.com/103304121/162566943-73eae993-3823-48d4-b6a9-b17d49be8d7d.png)  
 From this we can observe that the average is exceeding normal systolic blood pressure levels that is 120. Therefore there are patients with elevated and high blood pressure levels. Most frequently occurring systolic Blood pressure level is 120
   
 4.	What is the average number of the total patients having ten-year risk of getting Coronary heart disease?  
@@ -68,7 +68,7 @@ If we look at Males alone, the average number of males having coronary heart dis
 
 6.	What is the youngest and oldest patient?  
 ![s6](https://user-images.githubusercontent.com/103304121/162567143-e0b2814f-d328-4166-b6d4-e95ed465f247.png)
-![s66](https://user-images.githubusercontent.com/103304121/162567150-d5b58c23-c512-4e67-b204-b78c9ac8c915.png)
+![s66](https://user-images.githubusercontent.com/103304121/162567150-d5b58c23-c512-4e67-b204-b78c9ac8c915.png)  
 Range = max – min = 38
 From this we can observe that the oldest patient is 70 years old and the youngest patient is 32 years old. Most frequently occurring age is 40.
 
@@ -77,10 +77,52 @@ From this we can observe that the oldest patient is 70 years old and the younges
 ### Analytical:
 1.	Which all factors can be considered as potential risk factors?  
 2.	Why does males have high risk of getting CHD?  
+In our dataset we have 15 factors taken from demographic, behavioural and medical records of each patient. We will have to go through all the risk factors and narrow it down to a few important potential risk factors.   
+
+Cigarettes smoked per day: Risk of future CHD due to smoking
+![a1](https://user-images.githubusercontent.com/103304121/162567455-73faef3c-a50d-4857-b461-9ead073b6e42.png)
+![a11](https://user-images.githubusercontent.com/103304121/162567458-cdea4246-9d1b-4918-acd3-f12b0c70f642.png)
+![a12](https://user-images.githubusercontent.com/103304121/162567459-f6028ac4-572d-40bf-85d3-b5c19c133640.png)  
+
+From the Pie chart we can take cigarette smoking as a potential risk factor. As you can 52% of the population who have CHD risk are smokers. And when I classify his category again with respect to gender we can see that 61% of the male population are smokers which is more that half. This could be one reason for high risk of CHD in males.    
+Diabetes:   
+![a13](https://user-images.githubusercontent.com/103304121/162567461-ec9da9bd-f8f1-427d-bfb4-6e2e7c7f62d8.png)  
+In the pie chart you can see that 94% of the population who have a risk of CHD has no diabetes. Therefore this factor is not as reliable as the previous one and is ruled out.
+
+Systolic Blood Pressure:   
+![a14](https://user-images.githubusercontent.com/103304121/162567462-21f5edab-7ce4-4cb9-985e-eeaaf8d7c009.png)  
+From the pie chart we can see that 66% of the population having CHD has high systolic blood pressure and 16% have elevated systolic blood pressure. Therefore systolic blood pressure can be considered as a potential risk factor.  
+
+Taking factors like – Prevalent stroke, Prevalent Hypertension and Glucose levels  
+![a15](https://user-images.githubusercontent.com/103304121/162567463-030788cd-25ea-44c1-b073-1b7023b3c482.png)
+![a16](https://user-images.githubusercontent.com/103304121/162567464-fd94236a-1507-487b-a659-8f4dcfb62de4.png)
+![a17](https://user-images.githubusercontent.com/103304121/162567465-d8707e43-4aec-40fa-97b3-f11594677a70.png)
+
+These 3 factors taken individually is not a reliable risk factor. But taken in a combination can act as a potential risk factor.  This is shown below,  
+![a18](https://user-images.githubusercontent.com/103304121/162567467-086acb62-38ee-46f8-9984-d01d1cec1cca.png)
+
+  
 3.	Show the records of the youngest and oldest age. What is the inference?  
+![a3](https://user-images.githubusercontent.com/103304121/162567611-ba0d1222-5ba2-4ca0-9684-1562d84b6df0.png) 
+![a33](https://user-images.githubusercontent.com/103304121/162567620-279f63ef-eb8e-4242-a297-f23b3b1a14ad.png)  
+From the two age categories – The youngest(32 years) has normal total cholesterol level and systolic blood pressure, but is a smoker. His medical history shows  no prevalent stroke or hypertension, which is probably the reason why it is showing no future risk.
+There are two 70 year olds. The first patient has normal cholesterol levels and blood pressure and is not a smoker, but medical history shows prevalent stroke and hypertension which is probably the reason why it is showing there is a risk of CHD.
+The second patient has normal cholesterol levels and systolic bloode pressure, has prevalent Hypertension but it is showing no risk of CHD
+ 
 4.	Can age be considered as a potential risk factor?  
+From the Pie chart we can infer that the factor age cannot be ignored. It is also taken as a potential Risk factor.  
+![a4](https://user-images.githubusercontent.com/103304121/162567653-5100cf77-3261-4a66-868d-3aada773e720.png)
+  
 5.	Why can’t BPMeds be taken as a potential risk factor?  
-6.	Which age group is predominant?
+![a5](https://user-images.githubusercontent.com/103304121/162567689-49cb1cce-0598-4dc7-8bed-bea2c1b9f2d6.png)  
+From this Pie-chart we can infer that it is not a potential risk factor since more than ¾ th of the population having CHD does not take Blood pressure medicine. Therefore it is not a reliable factor. 
+  
+6.	Which age group is predominant?  
+![a6](https://user-images.githubusercontent.com/103304121/162567708-7e7c9329-0298-44fe-b3c1-465254ad204d.png)  
+From the pie-chart we can see that majority of the patients are from the age group 35-55, with an average of 0.67.
+Other age groups include: less than 35 = 0.02, 55 and above = 0.31
+
+
 
 
 
